@@ -7,16 +7,16 @@
 		  <action name="index" >
              <result>index.jsp</result>
          </action>
-		 <action name="employeeList" class="org.javasavvy.demo.EmployeeAction" method="getEmployeeList">
+		 <action name="employeeList" class="org.anjali.demo.EmployeeAction" method="getEmployeeList">
 		 	<result name="success">employeList.jsp</result>
 		 	<result name="failure">login.jsp</result>
 		 </action>
 		 
 		 
-		 <action name="addEmployeView" class="org.javasavvy.demo.EmployeeAction" method="addEmployeeView">
+		 <action name="addEmployeView" class="org.anjali.demo.EmployeeAction" method="addEmployeeView">
 		 	<result>addEmployee.jsp</result>
 		 </action>
-		 <action name="deleteEmploye" class="org.javasavvy.demo.EmployeeAction" method="deleteEmployee">
+		 <action name="deleteEmploye" class="org.anjali.demo.EmployeeAction" method="deleteEmployee">
 		 	<result>employeList.jsp</result>
 		 </action>
 	</package>
